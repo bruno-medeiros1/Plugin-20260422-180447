@@ -12,7 +12,7 @@
 # ============================================================
 
 # The prefix that appears before most plugin messages.
-prefix: "&#FFD700WelcomePlugin &e» "
+prefix: "&#FFD700WelcomePlugin &c» "
 
 # General Messages
 no-permission: "&cYou do not have permission to perform this action."
