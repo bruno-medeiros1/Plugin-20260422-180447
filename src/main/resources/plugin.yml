@@ -1,0 +1,47 @@
+name: PLUGIN_NAME
+description: PLUGIN_DESCRIPTION
+version: '0.1.0'
+main: org.minegen.plugin.PluginMain # package structure should be regenerated with new plugin name to avoid classpath collisions
+api-version: '1.21'
+load: STARTUP
+folia-supported: true
+commands:
+  minegen:
+    description: Main command for the plugin.
+    usage: /PLUGIN_ALIAS <subcommand>
+    aliases: [ PLUGIN_ALIAS ]
+
+permissions:
+  PLUGIN_LOWERCASE_NAME.*:
+    description: "Grants access to all plugin features and commands."
+    default: op
+    children:
+      PLUGIN_LOWERCASE_NAME.command.*:
+        description: "Allows the use of all plugin commands."
+        default: op
+        children:
+          # Core Command Permissions - DO NOT MODIFY
+          PLUGIN_LOWERCASE_NAME.command.reload:
+            default: op
+            description: "Allows reloading the plugin configuration."
+          # AI_CAN_ADD_COMMAND_PERMISSIONS - Add custom command permissions below this line
+          # Example:
+          # PLUGIN_LOWERCASE_NAME.command.custom:
+          #   default: op
+          #   description: "Description of custom command permission."
+
+          # AI_END - Do not add command permissions after this line
+
+      PLUGIN_LOWERCASE_NAME.bypass.*:
+        description: "Allows bypassing all plugin restrictions and limits."
+        default: op
+        children:
+          # Core Bypass Permissions - DO NOT MODIFY
+
+          # AI_CAN_ADD_BYPASS_PERMISSIONS - Add custom bypass permissions below this line
+          # Example:
+          # PLUGIN_LOWERCASE_NAME.bypass.cooldown:
+          #   default: op
+          #   description: "Allows bypassing cooldown restrictions."
+
+          # AI_END - Do not add bypass permissions after this line

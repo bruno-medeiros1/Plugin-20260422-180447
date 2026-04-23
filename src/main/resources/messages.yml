@@ -1,0 +1,42 @@
+# ---------------------------------------------------
+#               Messages Configuration
+# ---------------------------------------------------
+#
+# This file controls all the messages shown to players.
+# You can use standard Minecraft color codes with the '&' symbol.
+# You can also use hex color codes, e.g., '&#FFD700' for a custom gold color.
+# Placeholders like {0}, {1}, etc., will be replaced by the plugin automatically.
+
+# ============================================================
+# CORE MESSAGES - DO NOT MODIFY THIS SECTION
+# ============================================================
+
+# The prefix that appears before most plugin messages.
+prefix: "&#FFD700PLUGIN_NAME &e» "
+
+# General Messages
+no-permission: "&cYou do not have permission to perform this action."
+
+# Reload Command Message
+reload-start: "&eReloading plugin... Please wait."
+reload-success: "&aPlugin successfully reloaded! All configuration files are up to date."
+
+# ============================================================
+# AI_CAN_ADD_MESSAGES - Add custom messages below this line
+# ============================================================
+# Example:
+# # Teleport Command Messages
+# teleport-success: "&aYou have been teleported to {0}!"
+# teleport-cooldown: "&cYou must wait {0} seconds before teleporting again."
+# teleport-no-location: "&cNo teleport location found."
+#
+# # Home Command Messages
+# home-set: "&aHome location set successfully!"
+# home-teleport: "&aTeleporting to your home..."
+# home-not-set: "&cYou haven't set a home location yet. Use /minegen sethome first."
+# home-deleted: "&aYour home location has been deleted."
+# ============================================================
+
+# ============================================================
+# AI_END - Do not add messages after this line
+# ============================================================

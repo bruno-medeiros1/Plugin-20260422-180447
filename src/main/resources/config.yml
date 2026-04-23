@@ -1,0 +1,33 @@
+# ----------------------------------------------------
+#                 Main Configuration
+# ----------------------------------------------------
+#
+# This file controls all core features of the plugin.
+#
+# ============================================================
+# CORE SETTINGS - DO NOT MODIFY THIS SECTION
+# ============================================================
+general:
+  # Enable detailed debug messages in the server console.
+  debug-mode: false # [Default: false]
+
+# ============================================================
+# AI_CAN_ADD_CONFIG_SECTIONS - Add custom config sections below this line
+# ============================================================
+# Example:
+# teleport:
+#   # Enable teleport cooldown system
+#   cooldown-enabled: true # [Default: true]
+#   # Cooldown time in seconds
+#   cooldown-seconds: 5 # [Default: 5]
+#
+# homes:
+#   # Maximum number of homes per player
+#   max-homes: 3 # [Default: 3]
+#   # Enable home sharing between players
+#   allow-sharing: false # [Default: false]
+# ============================================================
+
+# ============================================================
+# AI_END - Do not add config sections after this line
+# ============================================================
